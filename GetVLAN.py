@@ -71,7 +71,7 @@ for port in portlist:
             result = net_connect.send_command(commandvlan)
 
             #Print to screen
-            print("port "+port+ " analysed")
+            print("port "+port+ " complete")
 
             #Split result into list, if tagged in result write VLAN to file
             for line in result.splitlines():
